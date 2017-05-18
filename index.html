@@ -162,6 +162,20 @@
 
         w.attachEvent ? w.attachEvent("onload", a) : w.addEventListener("load", a, !1)
     })(window, document);</script>
+    <style>
+        .wrap-services{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .service-box {
+            display: flex;
+            width: 33%;
+            text-align: center;
+            margin-bottom: 5em;
+        }
+
+    </style>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="home blog" dir="ltr">
@@ -314,7 +328,9 @@
                                 disseminar o PHP em Goiás.
                             </div>
                         </div>
-                        <div id="our_services_wrap" class="services-wrap our_services_wrap_piterest">
+                         <!-- Start Services-->
+                        <div class="wrap-services">
+
                             <div class="service-box">
                                 <div class="single-service border-bottom-hover">
                                     <h3 class="colored-text">Google Groups</h3>
@@ -344,7 +360,8 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+
+                        </div> <!-- End Services-->
                     </div>
                 </div>
             </section>
