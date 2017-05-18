@@ -1458,6 +1458,7 @@ header .navbar-brand {
 }
 
 .single-service {
+	margin-right: 10px;
 	padding: 40px 35px 40px 35px;
 	background: #ffffff;
 	border-top: 1px solid #eaeaea;
@@ -1471,11 +1472,12 @@ header .navbar-brand {
 	transition: all ease 0.55s;
 }
 
-.services-wrap .service-box {
-	display: inline-block;
-	width: 100%;
+.service-box {
+	display: flex;
+	width: 33%;
 	text-align: center;
 }
+
 
 .single-service > h3 > a:hover, .service-icon > a:hover{
 	text-decoration:none;
